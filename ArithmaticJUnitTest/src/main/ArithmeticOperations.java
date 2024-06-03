@@ -31,7 +31,7 @@ public class ArithmeticOperations {
             int b = scanner.nextInt();
             ArithmeticOperations arithmeticOperations = new ArithmeticOperations();
             System.out.println("Addition: " + arithmeticOperations.add(a, b));
-            System.out.println("Subtraction: " + arithmeticOperations.subtract(a, b));
+            System.out.println("Subtraction: " + arithmeticOperations.ract(a, b));
             System.out.println("Multiplication: " + arithmeticOperations.multiply(a, b));
             try {
                 System.out.println("Division: " + arithmeticOperations.divide(a, b));
